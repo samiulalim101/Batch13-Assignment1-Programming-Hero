@@ -113,3 +113,59 @@ main .hero_para {
     margin-left: 16px;
     font-weight: 600;
 }
+
+.note{
+    text-align: center;
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 120px;
+}
+
+.note h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    
+}
+
+.note .sub_heading{
+    font-size: 16px;
+    color: #627382;
+    margin-bottom: 44px;
+}
+
+
+.card{
+    background-color: #FFF;
+    box-shadow: 0 0 8px 0 rgb(192, 190, 190);
+    padding: 24px;
+    
+
+}
+
+.card img{
+    background-color: #F95555;
+    padding: 6px;
+    border-radius: 50%;
+    width: 32px;
+    margin-bottom: 16px;
+    
+}
+
+.card h3{
+    font-size: 24;
+    font-weight: 600;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.card p{
+    color: #627382;
+}
+
+.card_container{
+    display: flex;
+    gap: 24px;
+}
