@@ -15,6 +15,10 @@
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
 
+    <!-- google icon -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=play_arrow" />
+
 
     <!-- Adding css -->
 
@@ -44,15 +48,33 @@
     </header>
 
     <main>
-        <p class="round_shape">Early Access Now Open</p>
+        <p class="round_shape"><img src="./assets/greencircle.jpeg" alt="" class="green_circle">Early Access Now Open
+        </p>
         <h1 class="hero_text">Structured thinking, <br> <span class="highlited_text">not just note-taking.</span></h1>
 
         <p class="hero_para">A private space to store notes, links, and learning summaries — designed to <br>
-            help you think clearly, connect ideas, and turn learning into long-term knowledge.</p>
+            help you think clearly, connect ideas, and turn learning into long-term knowledge.
+        </p>
 
-        <button class="btn"><a href="">Start Building Your Vault</a></button>
+        <div class="button_container">
+            <button class="btn">
+            <a href="#" class="center">
 
-        <button class="btn2"><a href="">See How It Works</a></button>
+                <span>Start Building Your Vault</span> <img src="./assets/ArrowRight.png" alt="" class="right_arrow">
+            </a>
+        </button>
+
+        <button class="btn2">
+            <a href="" class="center">
+                <span class="material-symbols-outlined play_button ">
+                    play_arrow
+                </span>
+                <span>See How It Works</span>
+            </a>
+        </button>
+        </div>
+
+        
     </main>
 
 
@@ -112,7 +134,8 @@
                 structured by design.</h2>
 
 
-            <p class="personal_para">Personal Knowledge Vault isn't another note-taking app. z <br>It's a thinking environment where every
+            <p class="personal_para">Personal Knowledge Vault isn't another note-taking app. z <br>It's a thinking
+                environment where every
                 note, link, and summary <br>becomes part of an interconnected web of understanding</p>
 
             <ul>
@@ -128,12 +151,32 @@
     <section class="early_access">
         <h2>Ready to think more clearly?</h2>
 
-        <p>Join thousands of learners who are building their personal knowledge vaults. <br>Start free, no credit card required.</p>
+        <p>Join thousands of learners who are building their personal knowledge vaults. <br>Start free, no credit card
+            required.</p>
 
         <button class="btn"><a href="">Get Early Access</a></button>
 
         <p class="bottom_para">Free during early access • No credit card needed</p>
     </section>
+
+
+    <footer>
+        <div class="upper_footer">
+            <div class="left_upper_footer"><img src="./assets/logo-footer.png" alt=""></div>
+
+
+            <div class="right_upper_footer">
+                <p>Social Links</p>
+                <ul>
+                    <li class="icon">x</li>
+                    <li class="icon">in</li>
+                    <li class="icon">f</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="lower_footer">&copy;2026 Personal Knowledge Vault. All rights reserved.</div>
+    </footer>
 </body>
 
 </html>
