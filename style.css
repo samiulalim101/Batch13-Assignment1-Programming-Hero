@@ -61,6 +61,7 @@ a {
     text-align: center;
     cursor: pointer;
     transition: all 0.3s ease-in;
+    border-radius: 4px;
 
 }
 
@@ -220,4 +221,34 @@ main .hero_para {
     display: flex;
     gap: 6px;
     align-items: flex-start;
+}
+
+/* early access section */
+.early_access{
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #F7F6F2;
+    padding: 80px 40px;
+    text-align: center;
+    margin-bottom: 120px;
+    margin-top: 120px;
+
+}
+
+.early_access h2{
+    color: #001931;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+
+.early_access p{
+    color: #627382;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.early_access .bottom_para{
+    margin-top: 16px;
+    margin-bottom: 0;
 }
