@@ -36,6 +36,9 @@ nav ul {
     list-style: none;
     gap: 2rem;
 }
+li{
+    list-style: none;
+}
 
 nav ul li a {
     color: black;
@@ -168,4 +171,53 @@ main .hero_para {
 .card_container{
     display: flex;
     gap: 24px;
+}
+
+
+/* brain section */
+
+.brain{
+    display: flex;
+    max-width: 1600px;
+    width: 85%;
+    margin: 0 auto;
+    
+}
+
+.brain .left_brain{
+    width: 600px;
+    
+}
+
+.brain .right_brain{
+    padding: 101px;
+}
+
+.brain .right_brain .sub_heading{
+    text-transform: uppercase;
+    color: #30B868;
+    margin-bottom: 16px;
+}
+
+.brain .right_brain h2{
+    font-size: 48px;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.brain .right_brain .personal_para{
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.brain .right_brain ul{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.brain .right_brain ul li{
+    display: flex;
+    gap: 6px;
+    align-items: flex-start;
 }
